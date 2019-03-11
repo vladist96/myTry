@@ -1,0 +1,57 @@
+@media screen and (max-width: 1024px) {
+    article {
+        width: 90%;
+    }
+
+    .icon1, .icon2 {
+        display: none;
+    }
+
+    .one {
+        width: 100%;
+        float: none;
+        margin: auto auto 20px;
+    }
+
+    .cell {
+        display: block;
+        margin: auto auto 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wheel {
+        width: 300px;
+        margin-left: -150px;
+        height: auto;
+    }
+
+    .information p {
+        width: 100%;
+        left: auto;
+        margin: 0;
+    }
+
+    .topic_icon {
+        background: none;
+        margin: auto;
+        padding-bottom: 60px;
+    }
+
+    .icon_el {
+        position: unset;
+    }
+
+    .term {
+        background: none;
+        width: 100%;
+    }
+
+    .explain {
+        width: 100%;
+    }
+
+    .footer p {
+        padding-right: 0;
+    }
+}
